@@ -1,0 +1,122 @@
+html{
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 70px;
+  position: relative;
+  background-image: url("../pictures/train_forest_winter.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+
+header h1{
+	font-weight: 700;
+    padding: 64px 10px;
+	margin: 0;
+}
+
+h2.pos{
+	color: #fff;
+}
+
+input.pos{
+	color: #fff;
+}
+
+div.invalid-msg{
+	color: #ff0000;
+}
+
+div.success-msg{
+	color: #00ff00;
+}
+
+div.transbox {
+  margin: auto ;
+  margin-bottom: 70px;
+  max-width:400px;
+  min-width: 338px;
+  width: 90%;
+  background-color: #000;
+  padding: 20px 30px 35px 30px;
+  border-radius: 15px;
+}
+
+div.whitebox {
+  margin: auto ;
+  margin-bottom: 70px;
+  min-width: 390px;
+  max-width:640px;
+  width: 90%;
+  background-color: #fff;
+  padding: 20px 30px 35px 30px;
+  border-radius: 15px;
+}
+
+div.resultbox {
+  margin: auto ;
+  margin-bottom: 70px;
+  max-width:700px;
+  width: 90%;
+  background-color: #000;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+div.icon-container {
+  margin-bottom: 0px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+div.row-padding{
+	    margin:0px;
+}
+
+a.thick {
+  font-weight: bold;
+}
+label {
+	margin: 8px 0px;
+}
+
+.form-all {
+  width: 100%;
+  font-weight: 400;
+}
+.form-all .form-control {
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-all .form-control:focus {
+  z-index: 3;
+}
+.form-boxtop{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-boxmid{
+  margin-bottom: -1px;
+  border-radius: 0;
+}
+.form-boxbottom{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+footer {
+  text-align: center;
+  height: 70px;
+  background-color: #dbdbdb;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+}

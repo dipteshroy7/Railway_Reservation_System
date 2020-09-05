@@ -1,0 +1,17 @@
+global database name - orcl
+password - qwerty123
+password for HR user - hr
+
+https://localhost:1158/em
+
+PROJECT
+
+database domain - rrs.com
+global database name - rrsdata.rrs.com
+SID - rssdata
+password for all acc - rrs123
+password for HR user - hr
+
+database location -
+C:\Users\DELL\cfgtoollogs\dbca\rrsdata
+

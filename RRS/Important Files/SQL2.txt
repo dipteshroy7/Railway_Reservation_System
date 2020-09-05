@@ -1,0 +1,33 @@
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Bangalore',410,1731.3);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Bhubaneshwar',280,982.5);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Bombay',350,1387.8);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Chennai',414,1764.2);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Noida',221,700.8);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Delhi',232,743.0);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Goa',414,1759.9);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Hyderabad',307,1139.7);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Puri',292,1039.2);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Orissa',244,809.2);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Ooty',455,2002.5);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Patna',137,392.1);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Mysore',436,1881.1);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Shimla',300,1,091.5);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Kanpur',84,203.9);
+INSERT INTO RRS_ROUTE_FARE VALUES ('Allahabad','Kolkata',242,791.6);
+
+DELETE FROM RRS_ROUTE_FARE WHERE FARE = 242;
+
+DELETE FROM RRS_ROUTE_FARE WHERE departure_location = 'Allahabad';
+
+SELECT * FROM RRS_USERS;
+
+CREATE SEQUENCE ID_SEQ MINVALUE 1 START WITH 1 CACHE 10;
+
+INSERT INTO RRS_USERS VALUES (ID_SEQ.NEXTVAL,'Diptesh Roy','male',20,'dipteshroy77@gmail.com','qwerty');
+
+DELETE FROM RRS_USERS WHERE NAME = 'Diptesh Roy';
+
+out.println("<script type=\"text/javascript\">");
+			    out.println("alert('Email already registered. Use another email...');");	
+				out.println("location='signup.html';");
+			    out.println("</script>");

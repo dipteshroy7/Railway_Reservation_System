@@ -1,0 +1,35 @@
+BILLING
+-------------------------------------------------------
+Train from here to there                        2700KM
+
+Booking date                                15-08-2020
+
+Train name                            rajdhani express
+
+departure Date                              20-08-2020
+
+Base Ticket Fare (SL)                           Rs 300
+
+AC First Class (1A)                             Rs 540
+-------------------------------------------------------
+Total-Individual Fare                           Rs 820
+-------------------------------------------------------
+
+Children fare (20% disc)       300 - 20% =      Rs 240
+   
+AC First Class (1A)                             Rs 432
+-------------------------------------------------------
+Total Individual Children Fare                  Rs 672
+-------------------------------------------------------
+
+Number of Adults                                     5
+
+Number of Children                                   2
+
+Total Fare                      5 * 820 =      Rs 4100
+
+Total Children Fare             2 * 672 =      Rs 1344
+-------------------------------------------------------
+GRAND TOTAL                                    Rs 5444
+-------------------------------------------------------
+ 

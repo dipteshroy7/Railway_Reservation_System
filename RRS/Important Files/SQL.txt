@@ -1,0 +1,22 @@
+INSERT INTO RRS_ROUTE_FARE
+  WITH names AS ( 
+    SELECT 'Kolkata', 'Allahabad', ,   FROM dual UNION ALL 
+    SELECT 'Kolkata', 'Bangalore', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Bhubaneshwar', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Bombay', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Chennai', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Noida', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Delhi', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Goa', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Hyderabad', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Puri', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Orissa', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Ooty', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Patna', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Mysore', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Shimla', ,   FROM dual UNION ALL
+    SELECT 'Kolkata', 'Kanpur', ,   FROM dual
+  ) 
+  SELECT * FROM names;
+
+http://localhost:8081/RRS/billing.jsp?departure=Kolkata&destination=Bangalore&trainName=Rajdhani%20Express&adultNumber=5&childrenNumber=2&trainClass=AC%20Second%20Class&departureDate=31-07-2020&fare=441&distance=1906.5&bookingDate=16-07-2020&baseFare=2&classFare=8
