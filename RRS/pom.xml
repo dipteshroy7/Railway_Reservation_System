@@ -5,6 +5,7 @@
   <groupId>RRS</groupId>
   <artifactId>RRS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	<dependency>
