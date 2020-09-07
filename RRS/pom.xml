@@ -35,7 +35,7 @@
               </execution>
           </executions>
       </plugin>
-      <!-- <plugin>
+      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
@@ -49,7 +49,7 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
-      </plugin> -->
+      </plugin>
     </plugins>
   </build>
 </project>
