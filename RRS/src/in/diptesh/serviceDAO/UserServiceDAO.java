@@ -1,8 +1,11 @@
 package in.diptesh.serviceDAO;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.Base64;
 import java.util.Random;
 
 import in.diptesh.DAO.UserDAO;
@@ -109,6 +112,15 @@ public class UserServiceDAO implements UserDAO
 			{
 				System.out.println("Database Connection Created - Delete Password Check");
 				String dPassword = u3.getDpassword();
+				try {
+					MessageDigest md = MessageDigest.getInstance("SHA-256");
+					md.update(dPassword.getBytes());
+					byte[] digestedBytes = md.digest();
+					
+					dPassword = Base64.getEncoder().encodeToString(digestedBytes);
+				}
+				catch (NoSuchAlgorithmException e) {}
+				
 				String userEmail = u3.getLoginEmail();
 				PreparedStatement ps = con.prepareStatement("SELECT PASSWORD FROM RRS_USERS WHERE EMAIL=?");
 				ps.setString(1, userEmail);
