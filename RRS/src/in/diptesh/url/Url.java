@@ -1,4 +1,4 @@
-package in.diptesh.ngrok;
+package in.diptesh.url;
 
 public class Url 
 {
