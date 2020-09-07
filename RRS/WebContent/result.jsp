@@ -57,10 +57,10 @@
 		<div class="resultbox" style="padding-top:10px">
 	  	  	<div class="row">
 	  	  		<div class="col-sm-4">
-	  	  			<% out.print("<button class=\"btn btn-lg btn-danger btn-block\" style=\"margin-top:20px\" onclick=\"location.href='"+url+"/RRS/home'\" type=\"button\">HOME</button>");%>
+	  	  			<% out.print("<button class=\"btn btn-lg btn-danger btn-block\" style=\"margin-top:20px\" onclick=\"location.href='"+url+"/home'\" type=\"button\">HOME</button>");%>
 	  	  		</div>
 	  	  		<div class="col-sm-4">
-	  	  			<% out.print("<button class=\"btn btn-lg btn-danger btn-block\" style=\"padding:8px 2px;margin-top:20px\" onclick=\"location.href='"+url+"/RRS/pnr_status'\" type=\"button\">PNR Status</button>");%>
+	  	  			<% out.print("<button class=\"btn btn-lg btn-danger btn-block\" style=\"padding:8px 2px;margin-top:20px\" onclick=\"location.href='"+url+"/pnr_status'\" type=\"button\">PNR Status</button>");%>
 	  	  		</div>
 	  	  		<div class="col-sm-4">
 	  	  			<form method="POST" action='LogoutServlet'><button class="btn btn-lg btn-danger btn-block" style="margin-top:20px" type="submit">LOG OUT</button></form>

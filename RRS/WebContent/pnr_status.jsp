@@ -77,7 +77,7 @@
 			if(session.getAttribute("uemail") != null)
 	  		{
 				out.write("<div class=\"transbox\" style=\"padding: 20px 30px;\">");
-				out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/RRS/home'\" type=\"button\">HOME</button>");
+				out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/home'\" type=\"button\">HOME</button>");
 	  			out.write("</div>");
 	  		}
 		%>

@@ -133,7 +133,7 @@
   		String url = new Url().getUrl();
   		
   		out.write("<div class=\"whitebox\" style=\"max-width:1000px; padding:20px; width: 80%;\">");
-  			out.print("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/RRS/pnr_status'\" type=\"button\">BACK</button>");
+  			out.print("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/pnr_status'\" type=\"button\">BACK</button>");
   		out.write("</div>");
   	%>
 	</main>

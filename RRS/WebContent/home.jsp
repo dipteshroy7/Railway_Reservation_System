@@ -39,11 +39,11 @@
   	<main>
 		<div class="transbox" style="padding-top:35px" >
 		  	<div class="form-signin">
-		  		<% out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/RRS/profile'\" type=\"button\">User Profile</button>");%>
+		  		<% out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/profile'\" type=\"button\">User Profile</button>");%>
 				<br>
-		  		<% out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/RRS/book'\" type=\"button\">Book Tickets</button>");%>
+		  		<% out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/book'\" type=\"button\">Book Tickets</button>");%>
 				<br>
-		  		<% out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/RRS/pnr_status'\" type=\"button\">PNR Status</button>");%>
+		  		<% out.write("<button class=\"btn btn-lg btn-danger btn-block\" onclick=\"location.href='"+url+"/pnr_status'\" type=\"button\">PNR Status</button>");%>
 				<br>
 				<form method="POST" action='LogoutServlet'><button class="btn btn-lg btn-danger btn-block" type="submit">LOG OUT</button></form>
 			</div>
