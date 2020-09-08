@@ -7,5 +7,5 @@ https://railway-reservation-system.herokuapp.com
 **Site Use -**
 >You can Register and use those credential to Login to the site.
 
->You can book demo tickets.
+>>You can book demo tickets.
 >No need to enter anything in the Payment page, just click pay right away. 
