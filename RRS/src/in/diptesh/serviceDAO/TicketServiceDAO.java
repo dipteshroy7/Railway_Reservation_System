@@ -24,7 +24,7 @@ public class TicketServiceDAO implements TicketDAO
 			else
 			{
 				System.out.println("Database Connection Created - Ticket");
-				PreparedStatement ps = con.prepareStatement("INSERT INTO RRS_TICKETS VALUES ((SELECT PNR_ID FROM RRS_USERS WHERE EMAIL = ?),?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+				PreparedStatement ps = con.prepareStatement("INSERT INTO RRS_TICKETS (PNR_ID, NAME, AGE, PHONE_NUMBER, EMAIL, DEPARTURE_LOCATION, DESTINATION_LOCATION, BOOKING_DATE, DEPARTURE_DATE, TRAIN_NAME, TRAIN_CLASS, NUMBER_OF_ADULTS, NUMBER_OF_CHILDREN, DISTANCE, TOTAL_AMOUNT) VALUES ((SELECT PNR_ID FROM RRS_USERS WHERE EMAIL = ?),?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 				ps.setString(1, loginEmail);
 				ps.setString(2, b1.getBname());
 				ps.setInt(3, b1.getB_age());
