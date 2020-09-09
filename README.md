@@ -1,7 +1,7 @@
 # Railway_Reservation_System
 https://railway-reservation-system.herokuapp.com
 
-**Basic Demo site -**
+**Demo Railway Ticket Reservation Website -**
 > Java web application using jsp servlet and mysql database.
 
 **Site Use -**
